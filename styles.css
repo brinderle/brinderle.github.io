@@ -1,0 +1,331 @@
+/* #14A76C is green, #232526 is greyish black,
+#747474 is grey on home page */
+.navbar {
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 25px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+
+}
+.navbar li a {
+    color: #14A76C;
+    text-decoration: none; /*takes the underline off the links */
+    font-size: 15px;
+    background-color: transparent;
+}
+
+html, body, ul {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: linear-gradient(to right, #232526, #414345);
+	color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #14A76C;
+	font-family: 'Playfair Display SC', serif;
+}
+
+#header {
+	color: #14A76C;
+	text-align: center;
+	background-size: cover;
+	font-family: 'Playfair Display SC', serif;
+	height: 700px;
+}
+
+#headerText {
+	width: 58%;
+	float: left;
+	padding-top: 80px;
+	display: none;
+}
+
+#header h1 {
+	font-size: 60px;
+}
+
+#header h3 {
+	font-size: 20px;
+	color: #747474;
+}
+
+#pictureDiv {
+	width: 40%;
+	float: right;
+	padding-top: 80px;
+}
+
+#header img {
+	width: 70%;
+}
+
+#About {
+	text-align: center;
+	background: #14A76C;
+}
+#About p {
+	text-align: left;
+}
+#About h1, #About h2, #About h3 {
+	color: #232526;
+}
+#BioText {
+	display: inline-block;
+	width: 60%;
+	padding-left: 20px;
+	font-size: 18px;
+	vertical-align: middle;
+}
+#bioImageDiv {
+	width: 20%;
+	display: inline-block;
+	padding-right: 20px;
+	vertical-align: middle;
+}
+#standingOnSteps {
+	width: 100%;
+	border-radius: 50%;
+}
+#AboutLabel {
+	padding-top: 50px;
+}
+#ExpLabel, #AboutLabel, #EducationLabel {
+	font-size: 60px;
+	font-style: italic;
+}
+
+#MarkelText {
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	padding-left: 40px;
+	vertical-align: middle;
+}
+#Markel img {
+	display: inline-block;
+	width: 15%;
+	vertical-align: middle;
+}
+
+#Hanover {
+	display: inline-block;
+	padding-top: 50px;
+}
+#HanoverText {
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	padding-left: 40px;
+	vertical-align: middle;
+}
+#Hanover img {
+	width: 15%;
+	vertical-align: middle;
+}
+
+#Experience {
+	text-align: center;
+	background: #14A76C;
+}
+#Experience h1, #Experience h3 {
+	color: #232526;
+}
+
+#Education {
+	text-align: center;
+}
+#UVA {
+	text-align: left;
+	margin-left: 20px;
+}
+#EducationText {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60%;
+}
+#rotundaPicDiv {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	padding-left: 50px;
+}
+#rotundaPic {
+	width: 100%;
+}
+
+#InterestsText {
+	display: inline-block;
+	width: 60%;
+	padding-right: 20px;
+	font-size: 18px;
+	vertical-align: middle;
+}
+#soccerPicDiv {
+	display: inline-block;
+	width: 20%;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+#champion {
+	width: 100%;
+	border-radius: 50%;
+}
+
+#ClubContainer {
+	display: flex;
+}
+#TKE, #HackCville, #IMs {
+	display: inline-block;
+	width: 30%;
+	border: solid;
+	border-color: #232526;
+	vertical-align: top;
+	padding: 0px;
+	flex: 1;
+}
+#TKELogo, #HackCvilleLogo, #IMLogo {
+	height: 100px;
+}
+#TKE {
+	border-right: none;
+}
+#IMs {
+	border-left: none;
+}
+#TKE p, #HackCville p, #IMs p {
+	margin: 10px 5px;
+}
+#Portfolio {
+	text-align: center;
+}
+
+li:hover {
+	background-color: #14A76C;
+}
+#home:hover, #about:hover, #education:hover, #experience:hover, #portfolio:hover {
+	color: white;
+}
+.courses {
+	padding-bottom: 50px;
+}
+
+.course {
+	height: 200px;
+	width: 200px;
+	background-color: #14A76C;;
+	padding: 10px 10px;
+	color: white;
+	/*text-align: center;*/
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-style: solid;
+	border-color: green;
+}
+/*.course h3 {
+	color: black;
+}
+
+.course:hover h3{
+	visibility: hidden;
+	content: "hello"
+}*/
+#courseContainers {
+	text-align: center;
+}
+#githubDescription {
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+#githubImg {
+	width: 60px;
+	vertical-align: middle;
+}
+#github a {
+	display: inline-block;
+	color: #14A76C;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* I got most of this part from https://codepen.io/Jintos/pen/rolim*/
+
+.course {
+	color: black;
+    /*display: inline-block;*/
+    position: relative;
+    /*margin: 1em;
+    padding: 0.67em;
+    border: 2px solid #FFF;*/
+    overflow: hidden;
+    /*text-decoration: none;*/
+/*    font-size: 2em;
+    outline: none;
+    color: #FFF;
+    background: transparent;
+    font-family: 'raleway', sans-serif;*/
+	font-family: 'Playfair Display SC', serif;
+	font-weight: bold;
+}
+
+.course span {
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.course:before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0.67em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: .4s,opacity .6s;
+    -moz-transition: .4s,opacity .6s;
+    -o-transition: .4s,opacity .6s;
+    transition: .4s,opacity .6s;
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+}
+
+
+.course:hover span {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+
+.course:hover:before {
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    transition-delay: .4s;
+}
