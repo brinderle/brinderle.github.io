@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 #AboutLabel {
 	padding-top: 50px;
 }
-#ExpLabel, #AboutLabel, #EducationLabel {
+#ExpLabel, #AboutLabel, #EducationLabel, #PortfolioLabel {
 	font-size: 60px;
 	font-style: italic;
 }
