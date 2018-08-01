@@ -36,7 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	background-size: cover;
 	font-family: 'Playfair Display SC', serif;
-	height: 700px;
+	/*height: 700px;*/
+	min-height: 100vh; /* make the header take up the height of the viewing window */
 }
 
 #headerText {
