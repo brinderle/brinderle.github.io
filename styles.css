@@ -282,7 +282,7 @@ li:hover {
     transition-delay: 0.2s;
 }
 
-.course:before, .course:active {
+.course:before {
     content: attr(data-hover);
     font-family: 'Times New Roman', serif;
     color: white;
@@ -306,7 +306,7 @@ li:hover {
 }
 
 
-.course:hover span, .course:active span {
+.course:hover span {
     opacity: 0;
     -webkit-transform: scale(0.3);
     -moz-transform: scale(0.3);
