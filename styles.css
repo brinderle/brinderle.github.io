@@ -37,7 +37,9 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: cover;
 	font-family: 'Playfair Display SC', serif;
 	/*height: 700px;*/
-	min-height: 100vh; /* make the header take up the height of the viewing window */
+	/* make the header take up the height of the viewing window,
+	should adjust this so that it doesn't look weird on screens that are much taller than they are wide */
+	min-height: 100vh; 
 }
 
 #headerText {
@@ -280,7 +282,7 @@ li:hover {
     transition-delay: 0.2s;
 }
 
-.course:before {
+.course:before, .course:active {
     content: attr(data-hover);
     font-family: 'Times New Roman', serif;
     color: white;
@@ -304,7 +306,7 @@ li:hover {
 }
 
 
-.course:hover span {
+.course:hover span, .course:active span {
     opacity: 0;
     -webkit-transform: scale(0.3);
     -moz-transform: scale(0.3);
