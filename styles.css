@@ -224,25 +224,21 @@ li:hover {
 	height: 200px;
 	width: 200px;
 	background-color: #14A76C;;
-	padding: 10px 10px;
+	padding: 20px 20px;
 	color: white;
 	/*text-align: center;*/
-	display: inline-flex;
+	/*display: inline-flex;*/
 	align-items: center;
-	justify-content: center;
+	/*justify-content: center;*/
 	border-style: solid;
 	border-color: green;
 }
-/*.course h3 {
-	color: black;
-}
 
-.course:hover h3{
-	visibility: hidden;
-	content: "hello"
-}*/
 #courseContainers {
 	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
 #githubDescription {
 	text-align: left;
