@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 #AboutLabel {
 	padding-top: 50px;
 }
-#ExpLabel, #AboutLabel, #EducationLabel, #PortfolioLabel {
+#ExpLabel, #AboutLabel, #EducationLabel, #SkillsLabel, #PortfolioLabel {
 	font-size: 60px;
 	font-style: italic;
 }
@@ -210,15 +210,26 @@ h1, h2, h3, h4, h5, h6 {
 #TKE p, #HackCville p, #IMs p {
 	margin: 10px 5px;
 }
+
+#Skills {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
 #Portfolio {
 	text-align: center;
 	padding-bottom: 50px;
+	background: #14A76C;
+}
+
+#PortfolioLabel {
+	color: #232526;
 }
 
 li:hover {
 	background-color: #14A76C;
 }
-#home:hover, #about:hover, #education:hover, #experience:hover, #portfolio:hover {
+#home:hover, #about:hover, #education:hover, #experience:hover, #skills:hover, #portfolio:hover {
 	color: white;
 }
 .courses {
@@ -228,7 +239,7 @@ li:hover {
 .course {
 	height: 200px;
 	width: 200px;
-	background-color: #14A76C;;
+	background-color: #14A76C;
 	padding: 20px 20px;
 	color: white;
 	/*text-align: center;*/
@@ -257,7 +268,8 @@ li:hover {
 }
 #github a {
 	display: inline-block;
-	color: #14A76C;
+	color: black;
+	padding-left: 10px;
 }
 
 
