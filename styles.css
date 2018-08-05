@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 20px;
 	font-size: 18px;
 	vertical-align: middle;
+	color: black;
 }
 #bioImageDiv {
 	width: 20%;
@@ -174,6 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-right: 20px;
 	font-size: 18px;
 	vertical-align: middle;
+	color: black;
 }
 #soccerPicDiv {
 	display: inline-block;
@@ -216,6 +218,22 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 50px;
 }
 
+#Skills ul {
+	display: inline-block;
+	width: 40%;
+	margin-right: auto;
+	text-align: center;
+}
+
+#Skills li {
+	display: inline-flex;
+	border: solid;
+	border-color: #14A76C;
+	padding: 5px 20px;
+	margin: 5px 5px;
+	/*background: #14A76C;*/
+}
+
 #Portfolio {
 	text-align: center;
 	padding-bottom: 50px;
@@ -226,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #232526;
 }
 
-li:hover {
+.navbar ul li:hover {
 	background-color: #14A76C;
 }
 #home:hover, #about:hover, #education:hover, #experience:hover, #skills:hover, #portfolio:hover {
@@ -261,6 +279,7 @@ li:hover {
 	padding-left: 15px;
 	padding-right: 15px;
 	vertical-align: middle;
+	color: black;
 }
 #githubImg {
 	width: 60px;
